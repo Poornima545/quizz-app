@@ -8,11 +8,11 @@ function Navbar() {
       <NavLink className={className} to="/home">
         Home
       </NavLink>
-      <NavLink className={className} to="/about">
-Login
+      <NavLink className={className} to="/">
+        Login
       </NavLink>
-      <NavLink className={className} to="/about">
-Register
+      <NavLink className={className} to="/register">
+        Register
       </NavLink>
     </nav>
   );
