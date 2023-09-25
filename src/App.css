@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login-button {
+  padding: 0 5.7rem;
+  margin-top: 30px;
+  background-color: blue;
+  border-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.register-form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 3rem;
+}
+.register-button {
+  padding: 0 5rem;
+  margin-top: 30px;
+  background-color: blue;
+  border-color: blue;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.active {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.primary-nav {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-size: 20px;
+  margin: 30px;
+  border: 1px solid #7515d6;
+  background-color: #7515d6;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+.card-list {
+  text-align: center;
+  background-color: rgb(191, 173, 239);
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.start-quizz {
+  background-color: blue;
+  border-radius: 1rem;
+  color: #fff;
+  border-color: blue;
+  padding: 0.5rem 3rem;
+  font-size: 20px;
 }

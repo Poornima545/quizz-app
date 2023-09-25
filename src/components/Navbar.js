@@ -9,10 +9,10 @@ function Navbar() {
         Home
       </NavLink>
       <NavLink className={className} to="/about">
-Login
+        Login
       </NavLink>
       <NavLink className={className} to="/about">
-Register
+        Register
       </NavLink>
     </nav>
   );
