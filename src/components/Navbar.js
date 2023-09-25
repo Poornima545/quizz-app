@@ -8,10 +8,10 @@ function Navbar() {
       <NavLink className={className} to="/home">
         Home
       </NavLink>
-      <NavLink className={className} to="/about">
+      <NavLink className={className} to="/">
         Login
       </NavLink>
-      <NavLink className={className} to="/about">
+      <NavLink className={className} to="/register">
         Register
       </NavLink>
     </nav>

@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Cards from "../cards/Cards";
 import Navbar from "./Navbar";
 
@@ -6,6 +7,7 @@ function Home() {
     <>
       <Navbar />
       <Cards />
+      <Outlet/>
     </>
   );
 }

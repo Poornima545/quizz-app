@@ -70,6 +70,8 @@ a.active {
   align-items: center;
   gap: 50px;
 }
+
+
 .card-list {
   text-align: center;
   background-color: rgb(191, 173, 239);
@@ -78,6 +80,8 @@ a.active {
 
 h1 {
   text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .start-quizz {

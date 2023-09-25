@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Card = (props) => {
@@ -9,8 +8,10 @@ const Card = (props) => {
     <div className="card-list">
       <h1>{title}</h1>
       <p>{text}</p>
-      <button onClick={() => navigate} className="start-quizz">
-        Start Quizz
+      <button
+        onClick={() => navigate("/instructions")}
+        className="start-quizz">
+        Start-Quizz
       </button>
     </div>
   );
