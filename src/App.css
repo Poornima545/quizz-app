@@ -78,12 +78,6 @@ a.active {
   padding: 2rem;
 }
 
-h1 {
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 .start-quizz {
   background-color: blue;
   border-radius: 1rem;
